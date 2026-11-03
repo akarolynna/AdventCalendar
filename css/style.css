@@ -1,0 +1,58 @@
+/*IMPORTAÇÕES FONTES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #075f35 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+header .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+header .nav-link {
+    position: relative;
+    text-decoration: none;
+}
+
+header .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #E2AF46;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+header .nav-link:hover::after {
+    width: 100%;
+}
+header .nav-link:hover {
+    font-weight: bold;
+}
+header .msg-menu {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header .msg-menu .texto {
+    width: 12rem;
+   
+}
