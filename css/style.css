@@ -1,4 +1,5 @@
 /*IMPORTAÇÕES FONTES */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 * {
     margin: 0;
@@ -9,6 +10,7 @@
 
 html {
     scroll-behavior: smooth;
+
 }
 
 header {
@@ -16,6 +18,9 @@ header {
     justify-content: space-evenly;
     padding: 2rem;
     font-size: 1rem;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header .nav-list {
@@ -25,6 +30,7 @@ header .nav-list {
     gap: 30px;
     list-style: none;
 }
+
 header .nav-link {
     position: relative;
     text-decoration: none;
@@ -40,19 +46,31 @@ header .nav-link::after {
     left: 0;
     transition: width 0.3s ease;
 }
+
 header .nav-link:hover::after {
     width: 100%;
 }
+
 header .nav-link:hover {
     font-weight: bold;
 }
+
 header .msg-menu {
 
     display: flex;
     justify-content: space-between;
+    gap: 3rem;
+
 }
 
 header .msg-menu .texto {
     width: 12rem;
-   
+
+}
+
+header .msg-menu .texto p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-style: italic;
 }
