@@ -21,11 +21,12 @@ html {
 header {
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding: 1rem;
     font-size: 1rem;
     font-family: "IBM Plex Serif", serif;
     font-weight: 400;
     font-style: normal;
+    align-items: end;
 }
 
 header .nav-list {
@@ -85,7 +86,7 @@ header .msg-menu .texto p {
 main .apresentacao-advento {
     display: flex;
     justify-content: space-between;
-    background-color:#f7f3e86e;
+    background-color: #f7f3e86e;
     /* padding: 5rem 5rem 0rem 5rem; */
     min-height: 18rem;
 }
@@ -102,7 +103,135 @@ main .apresentacao-advento .container2 p {
     font-style: normal;
     line-height: 2rem;
 
+}
 
+main .apresentacao-advento .container2 .ler-versiculo-dia {
+    border: 1px solid #E2AF46;
+    border-radius: 2rem;
+    margin-top: 0.3rem;
+}
+
+/*IMPORTAÇÕES FONTES */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #075f35 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: end;
+}
+
+header .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+header .nav-link {
+    position: relative;
+    text-decoration: none;
+}
+
+header .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #E2AF46;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+header .nav-link:hover::after {
+    width: 100%;
+}
+
+header .nav-link:hover {
+    font-weight: bold;
+}
+
+header .msg-menu {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+
+}
+
+header .msg-menu .texto {
+    width: 12rem;
+    position: relative;
+    z-index: 1;
+
+}
+
+header .msg-menu .texto p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+main .apresentacao-advento {
+    width: 88%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 42%;
+    justify-items: end;
+    border-radius: 1rem;
+
+    background-color: #f7f3e86e;
+    margin-inline: auto;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+
+
+}
+
+main .apresentacao-advento .container1 {
+    grid-column: 1;
+    padding: 2rem 3rem;
+}
+
+main .apresentacao-advento .container2 {
+    grid-column: 2;
+    padding: 2rem 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+main .apresentacao-advento .container2 p {
+    width: 17rem;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2rem;
 
 }
 
@@ -110,6 +239,16 @@ main .apresentacao-advento .container2 .ler-versiculo-dia {
     border: 1px solid #E2AF46;
     border-radius: 2rem;
     margin-top: 0.3rem;
+}
+
+main .apresentacao-advento .container3 {
+    position: absolute;
+    right: 5rem;
+    bottom: 0;
+    /* width: 42%;
+    height: 27rem; */
+    overflow: visible;
+    z-index: 5;
 }
 
 main .apresentacao-advento .imagem-presepio {
@@ -121,5 +260,9 @@ main .apresentacao-advento .imagem-presepio {
 main .apresentacao-advento .imagem-presepio img {
     width: 100%;
     height: 100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    object-position: center bottom;
+    display: block;
 }
