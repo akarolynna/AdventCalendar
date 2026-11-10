@@ -1,26 +1,26 @@
 [
     {
-        "numero": 1,
+        "dia": 1,
         "imagem": "bastao-de-doces.png",
         "cor": "verde"
     },
     {
-        "numero": 2,
+        "dia": 2,
         "imagem": "lareira.png",
         "cor": "vermelho"
     },
     {
-        "numero": 3,
+        "dia": 3,
         "imagem": "luvas.png",
         "cor": "verde"
     },
     {
-        "numero": 4,
+        "dia": 4,
         "imagem": "presente.png",
         "cor": "vermelho"
     },
     {
-        "numero": 5,
+        "dia": 5,
         "imagem": "visco.png",
         "cor": "verde"
     }
