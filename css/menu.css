@@ -1,0 +1,64 @@
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+}
+
+header .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+header .nav-link {
+    position: relative;
+    text-decoration: none;
+}
+
+header .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #E2AF46;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+header .nav-link:hover::after {
+    width: 100%;
+}
+
+header .nav-link:hover {
+    font-weight: bold;
+}
+
+header .msg-menu {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+
+}
+header .msg-menu .texto {
+    width: 12rem;
+    position: relative;
+    z-index: 1;
+
+}
+
+header .msg-menu .texto p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-style: oblique;
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "numero": 1,
+        "imagem": "bastao-de-doces.png",
+        "cor": "verde"
+    },
+    {
+        "numero": 2,
+        "imagem": "lareira.png",
+        "cor": "vermelho"
+    },
+    {
+        "numero": 3,
+        "imagem": "luvas.png",
+        "cor": "verde"
+    },
+    {
+        "numero": 4,
+        "imagem": "presente.png",
+        "cor": "vermelho"
+    },
+    {
+        "numero": 5,
+        "imagem": "visco.png",
+        "cor": "verde"
+    }
+]

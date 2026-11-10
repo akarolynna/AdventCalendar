@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.calendario{
+    padding:3rem;
+    margin-left: 16rem;
+      margin-right: 16rem;
+}
+.grade-calendario {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.card-dia {
+    width: 11.5rem;
+    height: 6rem;
+    background-color: #2e7d32;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.dia2 {
+    background-color: red;
+}
+
+
+.numero-dia {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    z-index: 1;
+}
+
+.card-dia img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
