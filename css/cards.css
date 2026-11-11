@@ -23,7 +23,8 @@ main {
 
 
 .card-dia {
-    width: 11.5rem;
+    /* width: 11.5rem; */
+    width: 9.5rem;
     height: 6rem;
   
     border-radius: 0.6rem;

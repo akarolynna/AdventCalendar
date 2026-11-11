@@ -23,5 +23,102 @@
         "dia": 5,
         "imagem": "visco.png",
         "cor": "verde"
+    },
+    {
+        "dia": 6,
+        "imagem": "arvore-de-natal(1).png",
+        "cor": "vermelho"
+    },
+    {
+        "dia": 7,
+        "imagem": "o-email.png",
+        "cor": "verde"
+    },
+    {
+        "dia": 8,
+        "imagem": "estrela.png",
+        "cor": "vermelho"
+    },
+    {
+        "dia":9,
+        "imagem": "meia-de-natal.png",
+        "cor": "verde"
+    },
+    {
+        "dia": 10,
+        "imagem": "boneco-de-neve.png",
+        "cor": "vermelho"
+    },
+    {
+        "dia": 11,
+        "imagem":"presepio.png",
+        "cor": "verde"
+    },
+    {
+        "dia": 12,
+        "imagem": "luminaria-abajur.png",
+        "cor": "vermelho"
+    },
+    {
+        "dia":13,
+        "imagem":"bauble.png",
+        "cor":"verde"
+    },
+    {
+        "dia":14,
+        "imagem":"pomba.png",
+        "cor":"vermelho"
+    },
+    {
+        "dia":15,
+        "imagem":"soldado.png",
+        "cor":"verde"
+    },
+    {
+        "dia":16,
+        "imagem":"boneco-de-gengibre.png",
+        "cor":"vermelho"
+    },
+    {
+        "dia": 17,
+        "imagem":"coracao.png",
+        "cor":"verde"
+    },
+    {
+        "dia":18,
+        "imagem": "vela-de-natal.png",
+        "cor": "vermelho"
+    },
+    {
+    "dia": 19,
+    "imagem":"coroa.png",
+    "cor": "verde"
+    },
+    {
+        "dia":20,
+        "imagem":"cervo.png",
+        "cor":"vermelho"
+    },
+    {
+        "dia":21,
+        "imagem":"sino-de-natal.png",
+        "cor": "verde"
+    },
+    {
+        "dia":22,
+        "imagem": "floco-de-neve.png",
+        "cor":"vermelho"
+    },
+    {
+        "dia":23,
+        "imagem": "guirlanda-de-natal (1).png",
+        "cor":"verde"
+    },
+    {
+        "dia":24,
+        "imagem":"arvore-de-natal (1).png",
+        "cor":"vermelho"
     }
+   
+
 ]
