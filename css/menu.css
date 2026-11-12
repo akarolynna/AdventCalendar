@@ -43,22 +43,26 @@ header .nav-link:hover {
 }
 
 header .msg-menu {
-
     display: flex;
-    justify-content: space-between;
-    gap: 3rem;
-
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
+
 header .msg-menu .texto {
     width: 12rem;
-    position: relative;
-    z-index: 1;
-
 }
 
 header .msg-menu .texto p {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    margin: 0;
     font-weight: bold;
     font-style: oblique;
+    line-height: 1.4;
+}
+
+header .msg-menu .desenho-coracao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
